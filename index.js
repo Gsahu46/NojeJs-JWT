@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const SECRET_KEY = 'your_secret_key'; // Change this with your own secret key
+const SECRET_KEY = 'secret_key'; 
 
 // Sample database for users
 const users = [];
