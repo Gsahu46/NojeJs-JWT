@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Gsahu46/PioneerLabs/issues"
   },
-  "homepage": "https://github.com/Gsahu46/PioneerLabs#readme"
+  "homepage": "https://github.com/Gsahu46/PioneerLabs#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
 }
