@@ -48,12 +48,12 @@ app.post('/login', (req, res) => {
   res.json({ accessToken });
 });
 
-// Secure route example
+// Secure route 
 app.get('/secure', authenticateToken, (req, res) => {
   res.send(`Welcome, ${req.user.username}! This is a secure route.`);
 });
 
-// Logout endpoint (optional)
+// Logout endpoint 
 app.post('/logout', (req, res) => {
   // Implement logout logic if needed (e.g., token invalidation)
   res.send("Logged out successfully");
